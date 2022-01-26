@@ -16,7 +16,6 @@ const styles = StyleSheet.create({
     shadowRadius: 6,
     shadowOpacity: 0.26,
     backgroundColor: "white",
-    // Elevation need for shadow work on android
     elevation: 5,
     padding: 20,
     borderRadius: 10,
