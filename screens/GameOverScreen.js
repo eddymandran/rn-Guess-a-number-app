@@ -10,7 +10,8 @@ const GameOverScreen = props => {
             <TitleText>The Game is Over !</TitleText>
             <View style={styles.imageContainer}>
                 <Image
-                    source={require('../assets/success.png')}
+                   // source={require('../assets/success.png')}
+                    source={{uri: "https://negativespace.co/wp-content/uploads/2019/09/negative-space-snow-mountain-sunlight-clouds-1062x670.jpg"}}
                     style={styles.image}
                     resizeMode="cover"
                 />
