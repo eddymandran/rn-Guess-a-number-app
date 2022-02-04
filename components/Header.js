@@ -7,7 +7,7 @@ import TitleText from "./TitleText";
 const Header = (props) => {
     return (
         <View style={styles.header}>
-            <TitleText>{props.title}</TitleText>
+            <TitleText style={styles.title} >{props.title}</TitleText>
         </View>
     );
 };
@@ -19,7 +19,10 @@ const styles = StyleSheet.create({
         paddingTop: 36,
         backgroundColor: Colors.primary,
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+    },
+    title: {
+        color: "white"
     }
 });
 

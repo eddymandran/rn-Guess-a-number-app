@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
         justifyContent: "flex-end"
     },
     listItem: {
-        borderColor: "#ccc",
+        borderColor: "#2A75B3",
         borderWidth: 1,
         padding: 15,
         marginVertical: 10,
